@@ -1,0 +1,157 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+main{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #0b1b33;
+    height: 100%;
+}
+
+.section {
+    background: #0b1b33;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5em;
+    margin: 0 auto;
+    width: 75%;
+
+}
+.section .section-title {
+    font-size: calc(60px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
+    padding-bottom: 7px;
+    margin-top: -25px;
+    font-weight: 600;
+    text-align: center;
+    -webkit-transition:font-size 1s;
+    -o-transition:font-size 1s;
+    transition:font-size 1s;
+    margin-bottom: 50px;
+    color: #63CDDB;
+
+}
+.questions
+{
+    font-size: calc(30px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
+    color: #63CDDB;
+}
+
+.section .section-subtitle {
+    font-size: calc(25px + (13 - 13) * ((100vw - 320px) / (1200 - 320)));
+    font-weight: 500;
+    margin-bottom: 0px;
+    opacity: .9;
+    color: #55abb7;
+}
+
+
+.image-galaxy
+{
+    width: 99%;
+    margin: 10px 10px 10px 10px;
+    -webkit-box-shadow: 0 0 10px #3c568c;
+    box-shadow: 0 0 10px #3c568c;
+    border-radius: 10px;
+}
+@media (max-width: 1200px) {
+    .section
+    {
+        width: 85%;
+    }
+    .image-galaxy
+    {
+        height: 30%;
+    }
+    .section .section-title {
+        font-size: calc(60px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
+    }
+    .section .section-subtitle {
+        font-size: calc(25px + (13 - 13) * ((100vw - 320px) / (1200 - 320)));
+    }
+
+}
+@media (max-width: 768px) {
+    .section
+    {
+        width: 90%;
+    }
+    .image-galaxy
+    {
+        height: 30%;
+    }
+
+}
+
+
+.change-page {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5em;
+    margin: 0 auto;
+}
+.change-page a
+{
+    -webkit-text-decoration-line: none;
+    text-decoration-line: none;
+}
+.change-page a > div{
+    background: rgba(232, 81, 40, 0.9);
+    -webkit-box-shadow: 0 0 5px grey;
+    box-shadow: 0 0 5px grey;
+    text-align: center;
+    position: relative;
+    border-radius: 20px;
+    font-weight: 500;
+    padding: 10px;
+    width: 120px;
+    color: white;
+    top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.back-page:active,
+.next-page:active {
+    background-color: #298e46;
+    -webkit-box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+.container-about-us
+{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5em;
+    margin: 30px auto;
+    width: 80%;
+    background-color: #080b17;
+    border-radius: 30px;
+}
+
+.container-about-us > p{
+    font-size: calc(50px + (30 - 20) * ((100vw - 320px) / (1200 - 320)));
+    padding-bottom: 7px;
+    margin-top: 15px;
+    font-weight: 600;
+    text-align: center;
+    -webkit-transition:font-size 1s;
+    -o-transition:font-size 1s;
+    transition:font-size 1s;
+    margin-bottom: 50px;
+}
